@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E014332B15C93600EA3217 /* NeosoftMachineTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E014322B15C93600EA3217 /* NeosoftMachineTestApp.swift */; };
+		84E014372B15C93700EA3217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E014362B15C93700EA3217 /* Assets.xcassets */; };
+		84E0143A2B15C93700EA3217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E014392B15C93700EA3217 /* Preview Assets.xcassets */; };
+		84E014442B15C93700EA3217 /* NeosoftMachineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E014432B15C93700EA3217 /* NeosoftMachineTestTests.swift */; };
+		84E0144E2B15C93800EA3217 /* NeosoftMachineTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0144D2B15C93800EA3217 /* NeosoftMachineTestUITests.swift */; };
+		84E014502B15C93800EA3217 /* NeosoftMachineTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0144F2B15C93800EA3217 /* NeosoftMachineTestUITestsLaunchTests.swift */; };
+		84E0145D2B15CA1000EA3217 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0145C2B15CA1000EA3217 /* Weather.swift */; };
+		84E0145F2B15CB2000EA3217 /* WeatherServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0145E2B15CB2000EA3217 /* WeatherServices.swift */; };
+		84E014612B15CB5600EA3217 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E014602B15CB5600EA3217 /* WeatherViewModel.swift */; };
+		84E014632B15CBAB00EA3217 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E014622B15CBAB00EA3217 /* WeatherView.swift */; };
+		84E014652B15CBD100EA3217 /* CityInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E014642B15CBD100EA3217 /* CityInputView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E014402B15C93700EA3217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E014272B15C93600EA3217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E0142E2B15C93600EA3217;
+			remoteInfo = NeosoftMachineTest;
+		};
+		84E0144A2B15C93800EA3217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E014272B15C93600EA3217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E0142E2B15C93600EA3217;
+			remoteInfo = NeosoftMachineTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E0142F2B15C93600EA3217 /* NeosoftMachineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeosoftMachineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E014322B15C93600EA3217 /* NeosoftMachineTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeosoftMachineTestApp.swift; sourceTree = "<group>"; };
+		84E014362B15C93700EA3217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E014392B15C93700EA3217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84E0143F2B15C93700EA3217 /* NeosoftMachineTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeosoftMachineTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E014432B15C93700EA3217 /* NeosoftMachineTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeosoftMachineTestTests.swift; sourceTree = "<group>"; };
+		84E014492B15C93800EA3217 /* NeosoftMachineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeosoftMachineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E0144D2B15C93800EA3217 /* NeosoftMachineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeosoftMachineTestUITests.swift; sourceTree = "<group>"; };
+		84E0144F2B15C93800EA3217 /* NeosoftMachineTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeosoftMachineTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84E0145C2B15CA1000EA3217 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		84E0145E2B15CB2000EA3217 /* WeatherServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServices.swift; sourceTree = "<group>"; };
+		84E014602B15CB5600EA3217 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		84E014622B15CBAB00EA3217 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		84E014642B15CBD100EA3217 /* CityInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInputView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E0142C2B15C93600EA3217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E0143C2B15C93700EA3217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E014462B15C93800EA3217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E014262B15C93600EA3217 = {
+			isa = PBXGroup;
+			children = (
+				84E014312B15C93600EA3217 /* NeosoftMachineTest */,
+				84E014422B15C93700EA3217 /* NeosoftMachineTestTests */,
+				84E0144C2B15C93800EA3217 /* NeosoftMachineTestUITests */,
+				84E014302B15C93600EA3217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E014302B15C93600EA3217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E0142F2B15C93600EA3217 /* NeosoftMachineTest.app */,
+				84E0143F2B15C93700EA3217 /* NeosoftMachineTestTests.xctest */,
+				84E014492B15C93800EA3217 /* NeosoftMachineTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E014312B15C93600EA3217 /* NeosoftMachineTest */ = {
+			isa = PBXGroup;
+			children = (
+				84E014322B15C93600EA3217 /* NeosoftMachineTestApp.swift */,
+				84E014362B15C93700EA3217 /* Assets.xcassets */,
+				84E014382B15C93700EA3217 /* Preview Content */,
+				84E0145C2B15CA1000EA3217 /* Weather.swift */,
+				84E0145E2B15CB2000EA3217 /* WeatherServices.swift */,
+				84E014602B15CB5600EA3217 /* WeatherViewModel.swift */,
+				84E014622B15CBAB00EA3217 /* WeatherView.swift */,
+				84E014642B15CBD100EA3217 /* CityInputView.swift */,
+			);
+			path = NeosoftMachineTest;
+			sourceTree = "<group>";
+		};
+		84E014382B15C93700EA3217 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84E014392B15C93700EA3217 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84E014422B15C93700EA3217 /* NeosoftMachineTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E014432B15C93700EA3217 /* NeosoftMachineTestTests.swift */,
+			);
+			path = NeosoftMachineTestTests;
+			sourceTree = "<group>";
+		};
+		84E0144C2B15C93800EA3217 /* NeosoftMachineTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E0144D2B15C93800EA3217 /* NeosoftMachineTestUITests.swift */,
+				84E0144F2B15C93800EA3217 /* NeosoftMachineTestUITestsLaunchTests.swift */,
+			);
+			path = NeosoftMachineTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E0142E2B15C93600EA3217 /* NeosoftMachineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E014532B15C93800EA3217 /* Build configuration list for PBXNativeTarget "NeosoftMachineTest" */;
+			buildPhases = (
+				84E0142B2B15C93600EA3217 /* Sources */,
+				84E0142C2B15C93600EA3217 /* Frameworks */,
+				84E0142D2B15C93600EA3217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeosoftMachineTest;
+			productName = NeosoftMachineTest;
+			productReference = 84E0142F2B15C93600EA3217 /* NeosoftMachineTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E0143E2B15C93700EA3217 /* NeosoftMachineTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E014562B15C93800EA3217 /* Build configuration list for PBXNativeTarget "NeosoftMachineTestTests" */;
+			buildPhases = (
+				84E0143B2B15C93700EA3217 /* Sources */,
+				84E0143C2B15C93700EA3217 /* Frameworks */,
+				84E0143D2B15C93700EA3217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E014412B15C93700EA3217 /* PBXTargetDependency */,
+			);
+			name = NeosoftMachineTestTests;
+			productName = NeosoftMachineTestTests;
+			productReference = 84E0143F2B15C93700EA3217 /* NeosoftMachineTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E014482B15C93800EA3217 /* NeosoftMachineTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E014592B15C93800EA3217 /* Build configuration list for PBXNativeTarget "NeosoftMachineTestUITests" */;
+			buildPhases = (
+				84E014452B15C93800EA3217 /* Sources */,
+				84E014462B15C93800EA3217 /* Frameworks */,
+				84E014472B15C93800EA3217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E0144B2B15C93800EA3217 /* PBXTargetDependency */,
+			);
+			name = NeosoftMachineTestUITests;
+			productName = NeosoftMachineTestUITests;
+			productReference = 84E014492B15C93800EA3217 /* NeosoftMachineTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E014272B15C93600EA3217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					84E0142E2B15C93600EA3217 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					84E0143E2B15C93700EA3217 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 84E0142E2B15C93600EA3217;
+					};
+					84E014482B15C93800EA3217 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 84E0142E2B15C93600EA3217;
+					};
+				};
+			};
+			buildConfigurationList = 84E0142A2B15C93600EA3217 /* Build configuration list for PBXProject "NeosoftMachineTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E014262B15C93600EA3217;
+			productRefGroup = 84E014302B15C93600EA3217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E0142E2B15C93600EA3217 /* NeosoftMachineTest */,
+				84E0143E2B15C93700EA3217 /* NeosoftMachineTestTests */,
+				84E014482B15C93800EA3217 /* NeosoftMachineTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E0142D2B15C93600EA3217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E0143A2B15C93700EA3217 /* Preview Assets.xcassets in Resources */,
+				84E014372B15C93700EA3217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E0143D2B15C93700EA3217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E014472B15C93800EA3217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E0142B2B15C93600EA3217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E014612B15CB5600EA3217 /* WeatherViewModel.swift in Sources */,
+				84E0145F2B15CB2000EA3217 /* WeatherServices.swift in Sources */,
+				84E014652B15CBD100EA3217 /* CityInputView.swift in Sources */,
+				84E014632B15CBAB00EA3217 /* WeatherView.swift in Sources */,
+				84E0145D2B15CA1000EA3217 /* Weather.swift in Sources */,
+				84E014332B15C93600EA3217 /* NeosoftMachineTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E0143B2B15C93700EA3217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E014442B15C93700EA3217 /* NeosoftMachineTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E014452B15C93800EA3217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E0144E2B15C93800EA3217 /* NeosoftMachineTestUITests.swift in Sources */,
+				84E014502B15C93800EA3217 /* NeosoftMachineTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E014412B15C93700EA3217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E0142E2B15C93600EA3217 /* NeosoftMachineTest */;
+			targetProxy = 84E014402B15C93700EA3217 /* PBXContainerItemProxy */;
+		};
+		84E0144B2B15C93800EA3217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E0142E2B15C93600EA3217 /* NeosoftMachineTest */;
+			targetProxy = 84E0144A2B15C93800EA3217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84E014512B15C93800EA3217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E014522B15C93800EA3217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E014542B15C93800EA3217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeosoftMachineTest/Preview Content\"";
+				DEVELOPMENT_TEAM = GX3JULSV2C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.com.NeosoftMachineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E014552B15C93800EA3217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeosoftMachineTest/Preview Content\"";
+				DEVELOPMENT_TEAM = GX3JULSV2C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.com.NeosoftMachineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E014572B15C93800EA3217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GX3JULSV2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.com.NeosoftMachineTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeosoftMachineTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeosoftMachineTest";
+			};
+			name = Debug;
+		};
+		84E014582B15C93800EA3217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GX3JULSV2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.com.NeosoftMachineTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeosoftMachineTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeosoftMachineTest";
+			};
+			name = Release;
+		};
+		84E0145A2B15C93800EA3217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GX3JULSV2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.com.NeosoftMachineTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeosoftMachineTest;
+			};
+			name = Debug;
+		};
+		84E0145B2B15C93800EA3217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GX3JULSV2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weather.com.NeosoftMachineTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeosoftMachineTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E0142A2B15C93600EA3217 /* Build configuration list for PBXProject "NeosoftMachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E014512B15C93800EA3217 /* Debug */,
+				84E014522B15C93800EA3217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E014532B15C93800EA3217 /* Build configuration list for PBXNativeTarget "NeosoftMachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E014542B15C93800EA3217 /* Debug */,
+				84E014552B15C93800EA3217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E014562B15C93800EA3217 /* Build configuration list for PBXNativeTarget "NeosoftMachineTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E014572B15C93800EA3217 /* Debug */,
+				84E014582B15C93800EA3217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E014592B15C93800EA3217 /* Build configuration list for PBXNativeTarget "NeosoftMachineTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E0145A2B15C93800EA3217 /* Debug */,
+				84E0145B2B15C93800EA3217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E014272B15C93600EA3217 /* Project object */;
+}
